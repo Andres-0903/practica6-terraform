@@ -33,11 +33,11 @@ variable "ec2_specs" {
   type        = map(string)
 
 }
-variable "enable_monitoring" {
+/*variable "enable_monitoring" {
   description = "Habilita el despliegue de un servidor de monitoreo"
   type        = number
 
-}
+}*/
 variable "ingress_ports_list" {
   description = "Lista de puertos de ingress"
   type        = list(number)
