@@ -1,0 +1,30 @@
+
+.terraform/
+*.tfstate
+*.tfstate.*
+*.terraform.lock.hcl
+*.terraform.tfstate.1743636710.backup
+*.terraform.tfstate.backup
+
+
+
+crash.log
+*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos de variables sensibles
+*.tfvars
+*.pem
+*.key
+
+# Archivos del sistema y editores
+.DS_Store
+*.swp
+*.bak
+*.tmp
+.idea/
+.vscode/
+*.exe
